@@ -8,6 +8,8 @@ sans-serif; */
     list-style-type: none;
     padding: 0;
     margin: 0;
+    font-family: 'Poppins',
+        sans-serif;
 }
 
 .container {
@@ -19,30 +21,139 @@ sans-serif; */
 
 }
 
-:root{
-    --fs-sm:18px;
-    --fs-mg:20px;
-    --fs-lg:24px;
-    --fs-xl:36px;
-    --fs-xxl:48px;
+:root {
+    /* FONT SIZE */
+    --fs-sm: 18px;
+    --fs-mg: 20px;
+    --fs-lg: 24px;
+    --fs-xl: 36px;
+    --fs-xxl: 48px;
 
+    /* COLOR */
+    --main_clr: #000000;
+    --sec-white: #ffffff;
+    --accor-data: #4D4813;
+    --sec2-para-clr: #33300D;
+    --clr-red: #F4241E;
+
+    /* BG COLOR */
+    --bg-dark: #F6E300;
+    --bg-light: #FFF03F;
 }
 
-.gap_38{
-    gap:38px
+.gap_30 {
+    gap: 10px;
+}
+
+li a {
+    font-size: var(--fs-sm) !important;
+    font-weight: 400 !important;
+    color: var(--main_clr) !important;
+}
+
+.bg_dark {
+    background-color: var(--bg-dark);
+}
+
+ul li a:hover {
+    color: var(--clr-red) !important;
+    font-weight: 600 !important;
+}
+
+.fs_20 {
+    font-size: var(--fs-mg);
+}
+
+.connect_btm {
+    font-weight: 500;
+    padding: 12px 32px;
+    color: #F4241E;
+    border-radius: 10px;
+    border: 0px;
 }
 
 
+.fw_700 {
+    font-weight: 700;
+}
 
+.fs_xl {
+    font-size: var(--fs-xl);
+}
 
+.mt_lg_73 {
+    margin-top: 73px;
+}
 
+.max_w_806 {
+    max-width: 806px;
+}
 
+.fs_xxl {
+    font-size: var(--fs-xxl);
+}
 
+.fw_400 {
+    font-weight: 400;
+}
 
+.fs_18 {
+    font-size: var(--fs-sm);
+}
 
+.clr_main {
+    color: var(--main_clr);
+}
 
+.sec2_para {
+    color: var(--sec2-para-clr);
+}
 
+.max_w_591 {
+    max-width: 591px;
+}
 
+.fw_500 {
+    font-weight: 500;
+}
+
+.discover_btn {
+    border: 0px;
+    border-radius: 10px;
+    color: var(--sec-white);
+    background-color: var(--clr-red);
+    padding: 15px 32px;
+}
+
+.bg_light_yellow {
+    background-color: var(--bg-light);
+}
+
+/* SECTION THREE */
+.sec_3 div {
+    text-align: center;
+    padding: 14px;
+}
+
+.pad_54 {
+    padding: 54px;
+}
+
+.clr_white {
+    color: var(--sec-white);
+}
+
+.bg_red {
+    background-color: var(--clr-red);
+}
+
+.clr_FDD3D2 {
+    color: #FDD3D2;
+}
+
+.fs_lg {
+    font-size: var(--fs-lg);
+}
 
 
 
@@ -278,8 +389,14 @@ ol li {
 }
 
 @media (max-width:568px) {
-    .box_container{
+    .box_container {
         padding-left: 70px;
         padding-right: 10px;
+    }
+}
+
+@media (min-width:1200px) {
+    .gap_30 {
+        gap: 30px;
     }
 }
