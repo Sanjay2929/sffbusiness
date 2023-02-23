@@ -109,9 +109,7 @@ ul li a:hover {
     color: var(--sec2-para-clr);
 }
 
-.max_w_591 {
-    max-width: 591px;
-}
+
 
 .fw_500 {
     font-weight: 500;
@@ -155,25 +153,61 @@ ul li a:hover {
     font-size: var(--fs-lg);
 }
 
+/* .max_w_922{
+    max-width: 922px;
+    margin-left: auto;
+    margin-right: auto;
+} */
 
 
 
+/* ACCORDIAN */
+.accordion-button:not(.collapsed) {
+    color: var(--main_clr);
+    font-weight: 600;
+    font-size: var(--fs-sm);
+    background-color: var(--bg-light);
+    box-shadow: none;
+}
 
+.accordion-button {
+    color: var(--main_clr);
+    font-weight: 600;
+    font-size: var(--fs-sm);
+    background-color: var(--bg-light);
+    padding: 23px 31px;
+}
 
+.accordion-button:not(.collapsed)::after {
+    background-image: url(../images/png/accodian_arrow.png);
+}
 
+.accordion-button::after {
+    background-image: url(../images/png/accodian_arrow.png);
+}
 
+.accordion-item {
+    background-color: var(--bg-light);
+    color: #4D4813;
+}
 
+.accordion {
+    --bs-accordion-border-color: var(--bg-light)
+}
 
+.accordion-button:focus {
+    z-index: 3;
+    border-color: none;
+    outline: 0px;
+    box-shadow: none;
+}
 
-
-
-
-
-
-
-
-
-
+.clr_4A4400 {
+    color: #4A4400;
+}
+.max_w_524{
+    max-width: 524px;
+}
 
 
 
@@ -392,6 +426,17 @@ ol li {
     .box_container {
         padding-left: 70px;
         padding-right: 10px;
+    }
+}
+
+@media (min-width:992px) {
+    .max_w_591 {
+        max-width: 591px;
+    }
+
+    .px_150 {
+        padding-left: 150px;
+        padding-right: 150px;
     }
 }
 
