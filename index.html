@@ -6,11 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SFFB</title>
+    <link rel="shortcut icon" href="./assets/images/png/logo.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <!-- MY CUSTOM CSS -->
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="shortcut icon" href="./assets/images/png/logo.png" type="image/x-icon">
 
 </head>
 
@@ -28,19 +28,19 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav gap_30 align-items-center">
                         <li class="nav-item">
-                            <a class="nav-link " href="#">Home</a>
+                            <a class="nav-link " href="#home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About&nbsp;Us</a>
+                            <a class="nav-link" href="#about">About&nbsp;Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Tokenomics</a>
+                            <a class="nav-link" href="#token">Tokenomics</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " href="#">Roadmap</a>
+                            <a class="nav-link " href="#roadmap">Roadmap</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " href="#">Contact</a>
+                            <a class="nav-link " href="#contact">Contact</a>
                         </li>
                         <li>
                             <button class="fs_20 connect_btm">Connect&nbsp;Wallet</button>
@@ -49,23 +49,45 @@
                 </div>
             </div>
         </nav>
-        <section>
+        <!-- SECTION ONE -->
+        <section id="home">
             <img class="object-fit-cover w-100" src="./assets/images/png/hero_section_image.png" alt="hero img">
-            <div class="container-xxl">
+            <div class="container-xxl position-relative">
                 <div class="d-flex flex-column mt_lg_73 align-items-center">
                     <h4 class="text-center fs_xl fw_700 mb-4">WELCOME TO</h4>
                     <div class="mt-2 max_w_806 ">
                         <img src="./assets/images/png/sffb_open_logo.png" alt="logo-img" class="w-100">
                     </div>
                 </div>
+                <img class="position-absolute ham1 d_none_992"
+                    src="./assets/images/png/hamburger_53876-25481-removebg-preview.png" alt="hamburger">
+                <img class="position-absolute ham2 d_none_1780"
+                    src="./assets/images/png/hamburger_53876-25481-removebg-preview.png" alt="hamburger">
+                <img class="position-absolute ham3 d_none_1780"
+                    src="./assets/images/png/hamburger_53876-25481-removebg-preview.png" alt="hamburger">
+                <img class="position-absolute ham4 d_none_sm"
+                    src="./assets/images/png/hamburger_53876-25481-removebg-preview.png" alt="hamburger">
+                <img class="position-absolute cheese1 d_none_1780"
+                    src="./assets/images/png/cheese-burger-cartoon-icon-illustration_138676-2450-removebg-preview.png"
+                    alt="cheese_burger">
+                <img class="position-absolute cheese2 d_none_sm"
+                    src="./assets/images/png/cheese-burger-cartoon-icon-illustration_138676-2450-removebg-preview.png"
+                    alt="cheese_burger ">
+                <img class="position-absolute cheese3 d_none_992"
+                    src="./assets/images/png/cheese-burger-cartoon-icon-illustration_138676-2450-removebg-preview.png"
+                    alt="cheese_burger">
+                <img class="position-absolute  cheese4 d_none_1780"
+                    src="./assets/images/png/cheese-burger-cartoon-icon-illustration_138676-2450-removebg-preview.png"
+                    alt="cheese_burger">
             </div>
         </section>
     </header>
-    <section class="bg_light_yellow">
+    <!-- SECTION TWO -->
+    <section class="bg_light_yellow" id="about">
         <div class="container-xxl">
-            <div class="row justify-content-between align-items-center flex-wrap-reverse justify-content-center">
-                <div class="col-lg-6  col-sm-12">
-                    <h3 class="fw_700 fs_xxl mb-4 clr_main">It was popularised</h3>
+            <div class="row justify-content-between flex-wrap-reverse justify-content-center align-items-lg-center">
+                <div class="col-md-6  col-sm-12">
+                    <h3 class="fw_700 fs_xxl mb-4 clr_main mt-2">It was popularised</h3>
                     <p class="fw_400 fs_18 mb-5 sec2_para max_w_591">Have you heard? We’re hiring! We have 3,333 working
                         positions to fill on the Solana blockchain. Once all positions are
                         filled it’s crucial to stay on your toes because the corporate penguins are coming! Any penguins
@@ -73,80 +95,83 @@
                         floor when corporate arrives will be immediately fired and swept away! This makes SFFB a
                         deflationary collection until
                         we reach a maximum staff of 1,666 mcnoots in total.</p>
-                    <button class="fw_500 fs_20 discover_btn">DISCOVER MORE</button>
+                    <button class="fw_500 fs_20 discover_btn mb-2">DISCOVER MORE</button>
                 </div>
-                <div class="col-lg-5  col-sm-12">
-                    <img src="./assets/images/png/sec_3_img.png" alt="img" class="w-100 h-100 object-fit-cover">
+                <div class="col-md-5  col-sm-12">
+                    <img src="./assets/images/png/sec_3_img.png" alt="img" class="w-100 max_h_500 h_100_md object-fit-cover mt_30_756">
                 </div>
             </div>
         </div>
     </section>
-    <section class="bg_dark">
+    <!-- SECTION THREE -->
+    <section class="bg_dark" id="token">
         <div class="container-xxl pad_54 ">
             <div class="row sec_3 justify-content-center">
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12 ">
-                    <img src="./assets/images/png/image2.png" alt="img" class="w-100">
+                    <img src="./assets/images/png/image2.png" alt="img" class="w-100 hover_large">
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12 ">
-                    <img src="./assets/images/png/image1.png" alt="img" class="w-100">
+                    <img src="./assets/images/png/image1.png" alt="img" class="w-100 hover_large">
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12 ">
-                    <img src="./assets/images/png/image3.png" alt="img" class="w-100">
+                    <img src="./assets/images/png/image3.png" alt="img" class="w-100 hover_large">
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12 ">
-                    <img src="./assets/images/png/image4.png" alt="img" class="w-100">
+                    <img src="./assets/images/png/image4.png" alt="img" class="w-100 hover_large">
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12 ">
-                    <img src="./assets/images/png/image5.png" alt="img" class="w-100">
+                    <img src="./assets/images/png/image5.png" alt="img" class="w-100 hover_large">
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12 ">
-                    <img src="./assets/images/png/image6.png" alt="img" class="w-100">
+                    <img src="./assets/images/png/image6.png" alt="img" class="w-100 hover_large">
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12 ">
-                    <img src="./assets/images/png/image7.png" alt="img" class="w-100">
+                    <img src="./assets/images/png/image7.png" alt="img" class="w-100 hover_large">
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12 ">
-                    <img src="./assets/images/png/image12.png" alt="img" class="w-100">
+                    <img src="./assets/images/png/image12.png" alt="img" class="w-100 hover_large">
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12 ">
-                    <img src="./assets/images/png/image8.png" alt="img" class="w-100">
+                    <img src="./assets/images/png/image8.png" alt="img" class="w-100 hover_large">
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12 ">
-                    <img src="./assets/images/png/image9.png" alt="img" class="w-100">
+                    <img src="./assets/images/png/image9.png" alt="img" class="w-100 hover_large">
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12 ">
-                    <img src="./assets/images/png/image10.png" alt="img" class="w-100">
+                    <img src="./assets/images/png/image10.png" alt="img" class="w-100 hover_large">
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12 ">
-                    <img src="./assets/images/png/image11.png" alt="img" class="w-100">
+                    <img src="./assets/images/png/image11.png" alt="img" class="w-100 hover_large">
                 </div>
             </div>
         </div>
     </section>
+    <!-- SECTION FOUR -->
     <section class="bg_red">
         <div class="container-xxl pt-4 pb-4">
             <h3 class="text-center clr_white fs_xxl fw_700 pt-2">Supplies</h3>
             <div class="row align-items-center pb-4 justify-content-center">
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12" >
+                <div class="col-lg-3 col-md-4 col-6">
                     <h3 class="text-center fs_xxl fw_700 clr_white mt-4">3,313</h3>
                     <p class="text-center fw_400 fs_18 clr_FDD3D2">Public Sale</p>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12" >
+                <div class="col-lg-3 col-md-4 col-6">
                     <h3 class="text-center fs_xxl fw_700 clr_white mt-4">15</h3>
-                    <p class="text-center fw_400 fs_18 clr_FDD3D2">Community Giveaways</p>
+                    <p class="text-center fw_400 fs_18 clr_FDD3D2 mb-0 mb-sm-3">Community Giveaways</p>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12" >
+                <div class="col-lg-3 col-md-4 col-6">
                     <h3 class="text-center fs_xxl fw_700 clr_white mt-4">5</h3>
-                    <p class="text-center fw_400 fs_18 clr_FDD3D2">Marketing / Influencers</p>
+                    <p class="text-center fw_400 fs_18 clr_FDD3D2 mb-0 mb-sm-3">Marketing / Influencers</p>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12" >
+                <div class="col-lg-3 col-md-4 col-6">
                     <h3 class="text-center fs_xxl fw_700 clr_white mt-4">15</h3>
                     <p class="text-center fw_400 fs_18 clr_FDD3D2">Maximum Supply</p>
                 </div>
             </div>
         </div>
     </section>
-    <section class="bg_yellow">
+    <!-- SECTION TIMELINE -->
+    <section class="bg_yellow" id="roadmap">
         <div class="container-xxl pos_relative">
             <h3 class="roadmap">ROADMAP 1.0</h3>
             <div class="pad_y_100">
@@ -208,27 +233,27 @@
         </div>
     </section>
     <!-- SECTION SIX -->
-    <section class="bg_light_yellow">
+    <section class="bg_light_yellow" id="contact">
         <div class="container-xxl pb-5">
             <h3 class="text-center fw_700 fs_xxl pt-5 pb-4 clr_main">Team</h3>
             <div class="row justify-content-center pt-2 pb-2">
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <img src="./assets/images/png/sec6_1.png" alt="img" class="w-100 mb-2">
+                    <img src="./assets/images/png/sec6_1.png" alt="img" class="w-100 mb-2 hover_large">
                     <h5 class="text-center fw_700 fs_lg clr_main mt-4">Jhone Doe</h5>
                     <p class="text-center fw_400 fs_18 clr_main">Manager</p>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <img src="./assets/images/png/sec6_2.png" alt="img" class="w-100 mb-2">
+                    <img src="./assets/images/png/sec6_2.png" alt="img" class="w-100 mb-2 hover_large">
                     <h5 class="text-center fw_700 fs_lg clr_main mt-4">Jhone Doe</h5>
                     <p class="text-center fw_400 fs_18 clr_main">Manager</p>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <img src="./assets/images/png/sec6_3.png" alt="img" class="w-100 mb-2">
+                    <img src="./assets/images/png/sec6_3.png" alt="img" class="w-100 mb-2 hover_large">
                     <h5 class="text-center fw_700 fs_lg clr_main mt-4">Jhone Doe</h5>
                     <p class="text-center fw_400 fs_18 clr_main">Manager</p>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <img src="./assets/images/png/sec6_4.png" alt="img" class="w-100 mb-2">
+                    <img src="./assets/images/png/sec6_4.png" alt="img" class="w-100 mb-2 hover_large">
                     <h5 class="text-center fw_700 fs_lg clr_main mt-4">Jhone Doe</h5>
                     <p class="text-center fw_400 fs_18 clr_main">Manager</p>
                 </div>
@@ -319,39 +344,15 @@
                 </div>
             </div>
             <div class="d_flex justify-content-center">
-            <div class="text-center mt-lg-3 max_w_524">
-                <img src="./assets/images/png/footer-logo.png" alt="logo" class=" mt-4 mb-2 w-100">
-                <div>
-                    <img src="./assets/images/png/footer_smlogo.png" alt="logo" class="m-4">
-                    <img src="./assets/images/png/footer_twitter.png" alt="twitter" class="m-4">
+                <div class="text-center mt-lg-3 max_w_524">
+                    <img src="./assets/images/png/footer-logo.png" alt="logo" class=" mt-4 mb-2 w-100">
+                    <a href="#"><img src="./assets/images/png/footer_smlogo.png" alt="logo" class="m-4"></a>
+                    <a href="#"><img src="./assets/images/png/footer_twitter.png" alt="twitter" class="m-4"></a>
+                    <h6 class="fw_400 fs_18 clr_4A4400 mt-4 pt-2">@Copyright 2021</h6>
                 </div>
-             <h6 class="fw_400 fs_18 clr_4A4400 mt-4 pt-2">@Copyright 2021</h6>
-            </div>
             </div>
         </div>
     </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
