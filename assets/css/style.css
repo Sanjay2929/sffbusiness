@@ -42,7 +42,7 @@ sans-serif; */
 }
 
 .gap_30 {
-    gap: 10px;
+    gap: 6px;
 }
 
 li a {
@@ -263,6 +263,7 @@ ul li a:hover {
     background-color: #F6E300;
 }
 
+/* TIMELINE */
 ol li {
     list-style-type: decimal;
     list-style-position: inside;
