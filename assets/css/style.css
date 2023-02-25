@@ -123,7 +123,9 @@ ul li a:hover {
     bottom: 130px;
     right: -230px;
 }
-
+.min_h_200{
+    min-height: 200px;
+}
 /* SECTION TWO */
 
 .max_w_806 {
@@ -315,7 +317,7 @@ ol li {
 }
 
 .Timeline {
-    max-width: 1200px;
+    max-width: 1320px;
     position: relative;
     margin: 0 auto;
 }
@@ -342,7 +344,7 @@ ol li {
 }
 
 .content ol li {
-    font-style: var(--fs-lg);
+    font-size: var(--fs-lg);
     line-height: 36px;
     font-weight: 400;
     font-family: 'Poppins',
