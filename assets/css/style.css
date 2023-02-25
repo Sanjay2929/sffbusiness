@@ -123,9 +123,11 @@ ul li a:hover {
     bottom: 130px;
     right: -230px;
 }
-.min_h_200{
+
+.min_h_200 {
     min-height: 200px;
 }
+
 /* SECTION TWO */
 
 .max_w_806 {
@@ -479,15 +481,20 @@ ol li {
     .right::after {
         left: 22px;
     }
-        .mt_lg_73 {
-            margin-top: 24px;
-        }
+
+    .mt_lg_73 {
+        margin-top: 24px;
+    }
 }
 
 @media (max-width:568px) {
     .box_container {
         padding-left: 70px;
         padding-right: 10px;
+    }
+
+    .logo_max_w {
+        max-width: 150px;
     }
 
     .max_w_50 {
