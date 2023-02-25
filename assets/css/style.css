@@ -56,8 +56,8 @@ li a {
 }
 
 ul li a:hover {
+    -webkit-text-stroke-width: 1px;
     color: var(--clr-red) !important;
-    font-weight: 600 !important;
 }
 
 .fs_20 {
