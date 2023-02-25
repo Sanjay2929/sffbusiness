@@ -486,7 +486,9 @@ ol li {
         padding-left: 70px;
         padding-right: 10px;
     }
-
+.max_w_50{
+    max-width: 50px;
+}
     .Timeline::after {
         bottom: 234px;
 
