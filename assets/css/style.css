@@ -82,9 +82,7 @@ ul li a:hover {
     font-size: var(--fs-xl);
 }
 
-.mt_lg_73 {
-    margin-top: 73px;
-}
+
 
 .ham1 {
     top: -36px;
@@ -479,6 +477,9 @@ ol li {
     .right::after {
         left: 22px;
     }
+        .mt_lg_73 {
+            margin-top: 24px;
+        }
 }
 
 @media (max-width:568px) {
@@ -486,9 +487,11 @@ ol li {
         padding-left: 70px;
         padding-right: 10px;
     }
-.max_w_50{
-    max-width: 50px;
-}
+
+    .max_w_50 {
+        max-width: 50px;
+    }
+
     .Timeline::after {
         bottom: 234px;
 
@@ -543,6 +546,10 @@ ol li {
 @media (min-width:768px) {
     .h_100_md {
         height: 100%;
+    }
+
+    .mt_lg_73 {
+        margin-top: 73px;
     }
 }
 
