@@ -513,9 +513,9 @@ ol li {
 @media (max-width:568px) {
     :root {
         /* FONT SIZE */
-        --fs-sm: 15px;
+        --fs-sm: 12px;
         --fs-mg: 13px;
-        --fs-lg: 20px;
+        --fs-lg: 16px;
         --fs-xl: 26px;
         --fs-xxl: 35px;
     }
